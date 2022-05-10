@@ -1,0 +1,116 @@
+{
+  "hotCaffe": [
+    {
+      "title": "AMERICANO",
+      "Description": "Espresso with added hot water (100–150 ml). Often served in a cappuccino cup. (The espresso is added into the hot water rather.",
+      "image": "/images/americano.jpg",
+      "price": "30.000$"
+    },
+    {
+      "title": "CAFFÈ LATTE",
+      "Description": "typicA tall, mild 'milk coffee' (about 150-300 ml). An espresso with steamed milk and only a little milk foam poured over it.",
+      "image": "/images/CaffeLatte.jpg",
+      "price": "40.000$"
+    },
+    {
+      "title": "CAFÈ AU LAIT",
+      "Description": "French morning coffee. Made by mixing dark roasted filter coffee (often prepared with French Press) and warm milk. Served in a bowl or a large coffee cup.",
+      "image": "/images/CaffeAuLait.jpg",
+      "price": "35.000$"
+    },
+    {
+      "title": "ESPRESSO MACCHIATO",
+      "Description": "Espresso with a little milk foam (drink size about 50 ml). Served in an espresso cup",
+      "image": "/images/macchiato.png",
+      "price": "25.000$"
+    }
+  ],
+  "cake": [
+    {
+      "title": "Butter Cake",
+      "Description": "Any recipe for cake that begins cream butter and sugar is a butter cake. After the creaming, you add eggs to aerate the batter a bit",
+      "image": "/images/butterCake.png",
+      "price": "15.000$"
+    },
+    {
+      "title": "Pound Cake",
+      "Description": "Pound cake is a relative of butter cake. It's so called because it can be measured as a matter of proportion: a pound of butter, a pound of sugar",
+      "image": "/images/poundCake.png",
+      "price": "15.000$"
+    },
+    {
+      "title": "Sponge Cake",
+      "Description": "Any recipe that contains no baking soda or baking powder but lots of whipped eggs or egg whites? That's a sponge cake and there are several different types of sponge cake.",
+      "image": "/images/SpongeCake.png",
+      "price": "20.000$"
+    },
+    {
+      "title": "Biscuit Cake",
+      "Description": "Biscuit (always pronounced the French way as bees-kwee) cakes are another type of sponge cake containing both egg whites and yolks.",
+      "image": "/images/BiscuitCake.png",
+      "price": "15.000$"
+    }
+  ],
+  "Juice": [
+    {
+      "title": "Orange and Basil Juice",
+      "Description": "Orange and basil come together to create this revitalizing drink which is perfect to beat the heat. Top it up with ice and enjoy. ",
+      "image": "images/OrangeAndBasilJuice.png",
+      "price": "30.000$"
+    },
+    {
+      "title": "Virgin Punch",
+      "Description": "Fruity, with an instant power to boost up your energy levels, this juice recipe makes the most of fruits like apple, mango, orange and some sparkling lemonade. ",
+      "image": "/images/VirginPunch.png",
+      "price": "55.000$"
+    },
+    {
+      "title": "Cool Kiwi Juice",
+      "Description": "A tall glass of refreshing drink with cucumber, kiwi and the zing of Thai ginger.",
+      "image": "images/CoolKiwiJuice.png",
+      "price": "50.000$"
+    },
+    {
+      "title": "Watermelon Lychee Granita",
+      "Description": "A refreshing way to beat the heat. Throw in rsome watermelon pieces along with ginger, mint leaves, lemon and lychee topped with lots of ice! ",
+      "image": "/images/WatermelonLycheeGranita.png",
+      "price": "55.000$"
+    }
+  ],
+  "fastfood": [
+    {
+      "title": "Roast Beef Sandwich",
+      "Description": "Beef – it’s great on a Sunday roast, in a beef wellington and so much more. It’s not just restricted to being the star of the show on a big meal, however.",
+      "image": "/images/RoastBeefSandwich.png",
+      "price": "80.000$"
+    },
+    {
+      "title": "Pepperoni Pizza",
+      "Description": "There’s a reason this is one of the most popular types of pizza. Who doesn’t love biting into a crispy, salty round of pepperoni?",
+      "image": "/images/PepperoniPizza.png",
+      "price": "85.000$"
+    },
+    {
+      "title": "Veggie Pizza",
+      "Description": "When you want to jazz up your cheese pizza with color and texture, veggies are the perfect topping. And you’re only limited by your imagination.",
+      "image": "/images/VeggiePizza.png",
+      "price": "75.000$"
+    },
+    {
+      "title": "Chili Cheese Fries",
+      "Description": "These are cheese fries topped with a chili sauce. Not only do restaurants often have their own chili sauce recipes but you will find loads of them online as well",
+      "image": "/images/ChiliCheeseFries.jpg",
+      "price": "65.000$"
+    }
+  ],
+  "rate": {
+    "orders": "10214",
+    "reservs": "2486",
+    "rate": "4.5"
+  },
+  "about": {
+    "history": "Hes Café is a perfect place to get together and socialize far away the crowd of the city.Hot and cold Drinks, Salads, and little bites, all have been prepared using traditional Iranian flavors and served with special utensils at Hes cafe.",
+    "Quality": "Taste, decoration and Music all the combination bring you back to the old Tehran.",
+    "about": "The Iranian Café is an amazing café, a great place to get together and socialize. Drinks, salads and café-style meals are inspired by authentic Iranian flavors and will surely provide a different, pleasant experience."
+  }
+}
