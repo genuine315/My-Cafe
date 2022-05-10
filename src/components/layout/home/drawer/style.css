@@ -1,0 +1,112 @@
+#cafee {
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #cdb30c;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  cursor: pointer;
+}
+#cafee::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #cdb30c;
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 8px solid #cdb30c;
+  left: -10px;
+}
+#cafee:hover::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  filter: drop-shadow(0 0 25px #cdb30c);
+}
+
+#cake {
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #62760c;
+  font-size: 30px;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#cake::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #62760c;
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 8px solid #62760c;
+  position: absolute;
+  left: -10px;
+}
+#cake:hover::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  filter: drop-shadow(0 0 25px #62760c);
+}
+#juice {
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #00917c;
+  font-size: 30px;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#juice::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #00917c;
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 8px solid #00917c;
+  position: absolute;
+  left: -10px;
+}
+#juice:hover::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  filter: drop-shadow(0 0 25px #00917c);
+}
+#fastfood {
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #f88f01;
+  font-size: 30px;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#fastfood::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #f88f01;
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 8px solid #f88f01;
+  position: absolute;
+  left: -10px;
+}
+#fastfood:hover::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  filter: drop-shadow(0 0 25px #f88f01);
+}
