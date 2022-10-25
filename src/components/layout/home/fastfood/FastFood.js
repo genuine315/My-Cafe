@@ -21,7 +21,7 @@ const FastFood = () => {
   return (
     <div className={classes.container}>
       <div className={classes.itemTitle}>
-        <h1 className={classes.margin15}>fastfood</h1>
+        <h1 className={classes.title}>fastfood</h1>
       </div>
       {fastfood.map((item) => (
         <div className={classes.item}>
@@ -38,7 +38,7 @@ const FastFood = () => {
                 {item.price}
               </h4>
             </div>
-            <p className={classes.margin15}>{item.Description}</p>
+            <p className={classes.itemContentDescription}>{item.Description}</p>
           </div>
         </div>
       ))}

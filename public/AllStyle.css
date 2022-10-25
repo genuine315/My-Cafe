@@ -17,25 +17,33 @@
   src: url("fonts/Oranienbaum-Regular.ttf") format("ttf");
   src: url("fonts/Oranienbaum-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: colus;
+  src: url("fonts/Colus-Regular.otf") format("otf");
+  src: url("fonts/Colus-Regular.ttf") format("ttf");
+  src: url("fonts/Colus-Regular.woff") format("woff");
+}
 
 body {
-  font-family: "Oranienbaum";
+  font-family: "colus";
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  
+  background: url("./images/bg.cafee.jpg") no-repeat fixed center/cover;
+  height: 100vh;
+  width: "100%";
 }
 ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
   /* background: #221203; */
-  background: #ECECEC;
+  background: #ececec;
+  border-radius: 0 50px 50px 0;
 }
 ::-webkit-scrollbar-thumb {
-  background: #008E89;
+  background: #008e89;
   border-radius: 3px;
-
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #614124;

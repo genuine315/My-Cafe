@@ -1,5 +1,5 @@
 import React from "react";
-import { Drawer } from "@material-ui/core";
+import { Drawer, useMediaQuery, useTheme } from "@material-ui/core";
 import { connect } from "react-redux";
 import { ToggleDrawer } from "../../../../store/actions/index";
 import useStyle from "./style";
@@ -8,6 +8,8 @@ import CakeIcon from "@material-ui/icons/Cake";
 import LocalBarIcon from "@material-ui/icons/LocalBar";
 import FastfoodIcon from "@material-ui/icons/Fastfood";
 import "./style.css";
+import ModeToggle from "../../components/modeToggle/ModeToggle";
+import SignOutButton from "../../components/sign out button/SignOutButton";
 
 const DrawerMenu = ({
   state,
@@ -17,9 +19,11 @@ const DrawerMenu = ({
   ShowJuice,
   ShowFastfood,
 }) => {
-  console.log(state);
-
   const classes = useStyle();
+
+  const theme = useTheme();
+  const isMobiletSize = useMediaQuery(theme.breakpoints.down(430));
+  const ShowPowerSize = useMediaQuery(theme.breakpoints.down(600));
   return (
     <Drawer
       className={classes.drawer}
@@ -31,6 +35,7 @@ const DrawerMenu = ({
     >
       <div className={classes.title}>
         <h1>Menu</h1>
+        {isMobiletSize && <ModeToggle />}
       </div>
       <div className={classes.container}>
         <div>
@@ -62,6 +67,7 @@ const DrawerMenu = ({
             </h2>
           </div>
         </div>
+        {ShowPowerSize &&<div className={classes.powerButton}> <SignOutButton /></div>}
       </div>
     </Drawer>
   );

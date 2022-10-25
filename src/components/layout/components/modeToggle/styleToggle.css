@@ -1,0 +1,72 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 59px;
+  height: 30px;
+  cursor: pointer;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid #ecf8f3;
+  background-color: #ecf8f3;
+  border-radius: 50px;
+}
+@media (max-width: 400px){
+.slider{
+box-shadow: 0 0 10px 2px #aaa;
+
+}
+}
+.slider:before {
+  position: absolute;
+  left: -1px;
+  z-index: 999;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(120, 54, 0, 1) 0%,
+    rgba(170, 79, 13, 1) 25%,
+    rgba(120, 54, 0, 1) 75%,
+    rgba(170, 79, 13, 1) 100%
+  );
+  content: "";
+  transition: 0.3s;
+  
+}
+.off {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  color: #3d3935;
+  font-size: 0.8125rem;
+}
+.on {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  color: #3d3935;
+  font-size: 0.8125rem;
+}
+input:checked + .slider:before {
+  transform: translateX(29px);
+}
+.moonIcon {
+  margin-left: 7px;
+  font-size: 26px;
+  z-index: 99;
+}
+.sunIcon {
+  font-size: 26px;
+  z-index: 99;
+}

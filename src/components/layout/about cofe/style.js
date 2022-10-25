@@ -5,10 +5,16 @@ const useStyle = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column-reverse",
     },
+    [theme.breakpoints.down(400)]: {
+      padding:"0 20px"
+    },
     display: "flex",
     padding: "20px",
   },
   rightPart: {
+    [theme.breakpoints.down(400)]: {
+      margin:"0"
+    },
     flex: "1",
     height: "80vh",
     margin: "20px 0",
@@ -54,6 +60,9 @@ const useStyle = makeStyles((theme) => ({
     width: "100%",
   },
   rateDiv: {
+    [theme.breakpoints.down(400)]: {
+      width:"90%"
+    },
     display: "flex",
     width: "60%",
     margin: "auto",
@@ -62,8 +71,14 @@ const useStyle = makeStyles((theme) => ({
     flex: "1",
     fontSize: "35px",
     cursor: "pointer",
+    display:"flex",
+  justifyContent:"center",
+  alignItems:"center"
   },
   starDiv: {
+    [theme.breakpoints.down(400)]: {
+      width:"70%"
+    },
     display: "flex",
     flexDirection: "row-reverse",
     alignItems: "center",
@@ -81,12 +96,15 @@ const useStyle = makeStyles((theme) => ({
     borderRadius: "5px",
     padding: "10px 5px",
     TransitionEvent: " backgroundColor 1s",
-    fontFamily: "Oranienbaum",
+    fontFamily: "colus",
     fontSize: "20px",
     fontWeight: "600",
     boxShadow: "0 10px 10px -5px #444",
   },
   content: {
+    [theme.breakpoints.down(400)]: {
+      width: "100%",
+    },
     width: "70%",
     backgroundColor: "rgba(0,0,0,0.6)",
     margin: "20px",
@@ -102,8 +120,28 @@ const useStyle = makeStyles((theme) => ({
     width: "100%",
     height: "100%",
   },
-  text: {
-    padding: "20px",
+  textDiv: {
+    [theme.breakpoints.down(600)]: {
+      padding:"5px 10px"
+    },
+    padding: "10px 20px",
   },
+  text: {
+    [theme.breakpoints.down(600)]: {
+      fontSize: "14px",
+    },
+    [theme.breakpoints.down(400)]: {
+      fontSize: "10px",
+    },
+    color: "#fff",
+    fontSize: "20px",
+  },
+  giveUsText:{
+    [theme.breakpoints.down(350)]: {
+      fontSize:"18px"
+    },
+    margin:"0",
+
+  }
 }));
 export default useStyle;

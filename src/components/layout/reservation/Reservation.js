@@ -53,6 +53,7 @@ const Reservation = () => {
                 <div>
                   <span className="icon">
                     <img
+                      className="img"
                       src="images/171280_group_users_people_friends_icon.svg"
                       alt=""
                     />
@@ -63,7 +64,7 @@ const Reservation = () => {
               <li className={`${title2}`} onClick={activeTitle2}>
                 <div>
                   <span className="icon">
-                    <img src="images/group.svg" alt="" />
+                    <img className="img" src="images/group.svg" alt="" />
                   </span>
                   <span className="text">4person</span>
                 </div>
@@ -71,7 +72,11 @@ const Reservation = () => {
               <li className={`${title3}`} onClick={activeTitle3}>
                 <div>
                   <span className="icon">
-                    <img src="images/group-of-people.svg" alt="" />
+                    <img
+                      className="img"
+                      src="images/group-of-people.svg"
+                      alt=""
+                    />
                   </span>
                   <span className="text">6person</span>
                 </div>
@@ -80,7 +85,7 @@ const Reservation = () => {
                 <div>
                   <span className="icon">
                     <img
-                      className="imgicon"
+                      className="img"
                       src="images/team-building.svg"
                       alt=""
                     />

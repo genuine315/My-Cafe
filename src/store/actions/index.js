@@ -44,3 +44,55 @@ export const DrawerIconShow = () => {
     type: "DRAWER_ICON_SHOW",
   };
 };
+export const actionIsLogin = () => {
+  return {
+    type: "ACTION_IS_LOGIN",
+  };
+};
+export const actionNoLogin = () => {
+  return {
+    type: "ACTION_NO_LOGIN",
+  };
+};
+export const actionClientData = (customer) => {
+  return {
+    type: "ACTION_CLIENT_DATA",
+    payload: customer,
+  };
+};
+export const actionEditClientDate = (customer) => {
+  return {
+    type: "ACTION_EDIT_CLIENT_DATE",
+    payload: customer,
+  };
+};
+export const actionEditClientTime = (customer) => {
+  return {
+    type: "ACTION_EDIT_CLIENT_TIME",
+    payload: customer,
+  };
+};
+export const actionEditClientOccasion = (customer) => {
+  return {
+    type: "ACTION_EDIT_CLIENT_OCCASION",
+    payload: customer,
+  };
+};
+export const actionEditClientTheme = (customer) => {
+  return {
+    type: "ACTION_EDIT_CLIENT_THEME",
+    payload: customer,
+  };
+};
+export const actionEditClientCake = (customer) => {
+  return {
+    type: "ACTION_EDIT_CLIENT_CAKE",
+    payload: customer,
+  };
+};
+export const actionEditClientBalloon = (customer) => {
+  return {
+    type: "ACTION_EDIT_CLIENT_BALLOONS",
+    payload: customer,
+  };
+};

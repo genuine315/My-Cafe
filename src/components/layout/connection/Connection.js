@@ -13,14 +13,17 @@ const Connection = () => {
     text: textMessage,
   };
   const sendMessage = () => {
-    console.log(message);
+    console.log(message)
+    // toast.success("The message was sent", {
+    //   position: toast.POSITION.TOP_RIGHT,
+    // });
   };
 
   const classes = useStyle();
   return (
     <div className={classes.container}>
       <div className={classes.text}>
-        <p style={{ color: "#fff", fontSize: "20px" }}>
+        <p>
           we are here to create beautiful moments for you.so if somethings makes
           you happy or you are upset about somethings be sure to tell us. your
           opinion is very important for us.

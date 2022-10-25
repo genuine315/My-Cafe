@@ -22,6 +22,9 @@ const useStyle = makeStyles((theme) => ({
     display: "flex",
   },
   MenoItemTop: {
+    [theme.breakpoints.down(1300)]: {
+      fontSize:"18px"
+    },
     background: theme.palette.primary.mainGradient,
     margin: "10px",
     flex: "1",
@@ -41,6 +44,9 @@ const useStyle = makeStyles((theme) => ({
     },
   },
   MenoItemBottom: {
+    [theme.breakpoints.down(1300)]: {
+      fontSize:"18px"
+    },
     background: theme.palette.primary.mainGradient,
     margin: "10px 10px 0 10px",
     flex: "1",

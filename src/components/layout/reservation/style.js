@@ -5,12 +5,15 @@ const useStyle = makeStyles((theme) => ({
     padding: "10px 20px",
   },
   items: {
+    [theme.breakpoints.down(350)]: {
+      padding: "20px",
+    },
     display: "flex",
     flexDirection: "column",
     backgroundColor: "rgba(0,0,0,0.4)",
     margin: "auto",
     borderRadius: "10px",
-    padding: "20px",
+    padding: "40px",
   },
   navigatin: {
     background: theme.palette.primary.mainGradient,

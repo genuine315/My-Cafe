@@ -4,19 +4,20 @@ import TelegramIcon from "@material-ui/icons/Telegram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
+import "./footer.css"
 
 const Footer = () => {
   const classes = useStyle();
   return (
     <div className={classes.container}>
-      <div className={classes.footer}>
+      <div className={classes.footer} id="footer">
         <div className={classes.iconsDiv}>
           <div className={classes.iconDiv}>
             <a href={"https://goo.gl/maps/EzFq3Wf3SrJoshzE9"}>
               <LocationOnIcon
                 className={classes.icon}
                 style={{ color: "#000" }}
-              ></LocationOnIcon>
+              ></LocationOnIcon >
             </a>
           </div>
 

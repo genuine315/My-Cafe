@@ -126,7 +126,7 @@ const AboutCofe = () => {
                 <h2 style={{ margin: "5px" }}>RATE</h2>
               </div>
               <div className={classes.rateDiv}>
-                <h3>{information.rate}</h3>
+                
                 <div className={classes.rate}>
                   <StarIcon className={classes.rate}></StarIcon>
                 </div>
@@ -143,11 +143,12 @@ const AboutCofe = () => {
                   <StarIcon className={classes.rate}></StarIcon>
                 </div>
               </div>
+              <h3 style={{margin:"0"}} >{information.rate}</h3>
             </div>
           </div>
           <div className={classes.informationDiv}>
             <div>
-              <h2 style={{ margin: "0" }}>YOU GIVE US POINTS</h2>
+              <h2 className={classes.giveUsText}>YOU GIVE US POINTS</h2>
             </div>
             <div className={classes.starDiv}>
               <div>
@@ -203,8 +204,8 @@ const AboutCofe = () => {
           <div className={classes.photo}>
             <img className={classes.img} src="/images/cafe2.jpg" alt="" />
           </div>
-          <div className={classes.text}>
-            <p style={{ color: "#fff", fontSize: "20px" }}>
+          <div className={classes.textDiv}>
+            <p className={classes.text}>
               {description.history}
             </p>
           </div>
@@ -213,8 +214,8 @@ const AboutCofe = () => {
           <div className={classes.photo}>
             <img className={classes.img} src="/images/cafe1.jpg" alt="" />
           </div>
-          <div className={classes.text}>
-            <p style={{ color: "#fff", fontSize: "20px" }}>
+          <div className={classes.textDiv}>
+            <p className={classes.text}>
               {description.about}
             </p>
           </div>
@@ -227,8 +228,8 @@ const AboutCofe = () => {
               alt=""
             />
           </div>
-          <div className={classes.text}>
-            <p style={{ color: "#fff", fontSize: "20px" }}>
+          <div className={classes.textDiv}>
+            <p className={classes.text}>
               {description.Quality}
             </p>
           </div>

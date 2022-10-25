@@ -19,7 +19,7 @@ const HotCoffe = () => {
   return (
     <div className={classes.container}>
       <div className={classes.itemTitle}>
-        <h1 className={classes.margin15}> hot caffe</h1>
+        <h1 className={classes.title}> hot caffe</h1>
       </div>
       {hotCaffe.map((item) => (
         <div className={classes.item}>
@@ -36,7 +36,7 @@ const HotCoffe = () => {
                 {item.price}
               </h4>
             </div>
-            <p className={classes.margin15}>{item.Description}</p>
+            <p className={classes.itemContentDescription}>{item.Description}</p>
           </div>
         </div>
       ))}

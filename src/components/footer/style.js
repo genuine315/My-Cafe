@@ -1,12 +1,15 @@
 import { makeStyles } from "@material-ui/styles";
 
-const useStyle = makeStyles({
+const useStyle = makeStyles((theme)=>({
   container: {
     display: "flex",
-    justifyContent: "flex-end",
+    // justifyContent: "flex-end",
     width: "300px",
   },
   footer: {
+    // [theme.breakpoints.down(500)]: {
+    //   justifyContent:"space-around"
+    //  },
     backgroundColor: "rgba(0,0,0,0.8)",
     padding: "10px",
     marginTop: "50px",
@@ -36,5 +39,5 @@ const useStyle = makeStyles({
     color: "#fff",
     textAlign: "center",
   },
-});
+}));
 export default useStyle;

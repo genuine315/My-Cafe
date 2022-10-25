@@ -4,6 +4,7 @@ import img404 from "../../images/404page.png";
 import HomeIcon from "@material-ui/icons/Home";
 import { Link } from "react-router-dom";
 const Page404 = () => {
+
   const style404 = {
     backgroundImage: `url(${img404})`,
     background: `url(${img404}) no-repeat fixed center/cover`,
